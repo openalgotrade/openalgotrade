@@ -1,23 +1,21 @@
 //========================================================================================================================================
-// TwsApi Test
+// Get current portfolio
 //========================================================================================================================================
 #include "TwsApiL0.h"
 #include "TwsApiDefs.h"
 #include <iostream>
-#include <map>
 #include <vector>
-#include <fstream>
 	
 using namespace TwsApi;
 using namespace std;
 
-bool ErrorForRequest		= false;
-bool continueRequest        = true;
+bool ErrorForRequest = false;
+bool continueRequest = true;
 IBString account_str;
 struct PortfolioPosition
 {
 	IBString symbol;
-    int expiry;
+    	int expiry;
 	double strike;
 	int quantity;
 };
@@ -89,18 +87,8 @@ int main( int argc, const char* argv[] )
     EC->eDisconnect();
     delete EC;
 
-    ofstream file;
-    //file.open("portfolio.csv");
-    // put all the portfolio info in the .csv file
     for (unsigned int i = 0; i < AllPositions.size(); i++)
         fprintf(stdout, "%s %d ", (const char*) AllPositions[i].symbol, AllPositions[i].quantity);
-/*        file << AllPositions[i].symbol 
-             << " , " << AllPositions[i].strike
-             << " , " << AllPositions[i].quantity
-             << " , " << AllPositions[i].expiry 
-             << endl;
-
-    file.close();
-*/
+	
     return ErrorForRequest;
 }

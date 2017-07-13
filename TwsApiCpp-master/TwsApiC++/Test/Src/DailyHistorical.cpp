@@ -1,5 +1,6 @@
 //============================================================================
-// TwsApi Test
+// This will get the previous 24 ticks (initially minute intervals)
+// and print them to stdout to be used by the main python program
 //============================================================================
 #include "TwsApiL0.h"
 #include "TwsApiDefs.h"
@@ -89,7 +90,7 @@ int main( int argc, const char* argv[] )
     IBString WTS		= *WhatToShow::TRADES;
 
     int socketNumber   	= 4002;
-    MyEWrapper	MW( false );
+    MyEWrapper	MW( false ); // threaded option
     EClientL0*	EC = EClientL0::New( &MW );
 
     if( EC->eConnect( "", socketNumber, 100 ) )

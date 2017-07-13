@@ -6,7 +6,7 @@ but will try to fill at better prices.
 The program will not return until the order placed was cancelled (through TWS) or filled.
 This could be modified to wait a certain amount of time and then cancel (or other more sophisticated functions).
 
-@author: Justin Clark of Canopy
+@author: Justin Clark
 */
 
 #include "TwsApiL0.h"

@@ -1,7 +1,7 @@
 # openalgotrade
 Basic automated trading algorithms to get you started in the world of algorithmic trading.
 
-## C++ portions of this code are built on top of the project started by Jan Boonen. [Here it is](https://github.com/JanBoonen/TwsApiCpp).
+## IB/C++ portions of this code are built on top of the project started by Jan Boonen. [Here it is](https://github.com/JanBoonen/TwsApiCpp).
 
 ### Usage
 - Be on a Linux computer

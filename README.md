@@ -4,6 +4,6 @@ In the "SampleAlgorithms" folder, you'll find programs written in Python that ut
 
 If you would like to add more tools (maybe through another broker?) or algos, please submit a pull request!
 
-## IB/C++ API portions of this code are built on top of the project started by Jan Boonen. [Here it is](https://github.com/JanBoonen/TwsApiCpp).
+#### IB/C++ API portions of this code are built on top of the project started by Jan Boonen. [Here it is](https://github.com/JanBoonen/TwsApiCpp).
 
-### WE ARE NOT RESPONSIBLE FOR ANY CONSEQUENCES OF IMPLEMENTING THESE STRATEGIES. THEY ARE ONLY MEANT TO SERVE AS A TEMPLATE TO GET YOU STARTED IN THE WORLD OF ALGORITHMIC TRADING. THIS IS WHY WE MAKE IT CLEAR THAT YOU NEED TO TEST THESE AND MODIFY IN PAPER TRADING.
+##### WE ARE NOT RESPONSIBLE FOR ANY CONSEQUENCES OF IMPLEMENTING THESE STRATEGIES. THEY ARE ONLY MEANT TO SERVE AS A TEMPLATE TO GET YOU STARTED IN THE WORLD OF ALGORITHMIC TRADING. THIS IS WHY WE MAKE IT CLEAR THAT YOU NEED TO TEST THESE AND MODIFY IN PAPER TRADING.
